@@ -1,0 +1,136 @@
+body{
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    /*text-align: center;*/
+    margin: 2px 3em 3px 3em;
+        background-image: url(Images/bg-image.png);
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+}
+
+.upper-content h1 {
+    font-family: 'tloz';
+    font-size: 12px;
+   }
+  
+   .upper-content .left-content button {
+    background-color: white;
+    display: inline-flex;
+    width: 120px;
+    height: 25px;
+    font-size: 9px;
+    justify-content: space-around;align-items: center;
+    border-radius: 5px;
+    border: 2px solid rgba(207, 128, 38, 0.4);
+    color: #a1815c;
+    font-weight: 900;
+    padding: 0 7px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+   }
+  
+
+
+h2{
+    text-align: center;
+    color: #3d3939;
+}
+
+
+ul li{
+    display: block;
+    margin: 2em 0 2em 2em;
+    clear: left;
+}
+
+.copy{
+    border: 1px solid black;
+    color: white;
+    background-color:  #804000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 2em;
+    width: 2em;
+}
+
+.stat{
+    border: 1px solid #4d2800;
+    text-align: center;
+    border-radius: 6px;
+    margin: 0 1em 0 50em;
+    width: 5em;
+    padding: 10px 3em;
+}
+
+p{
+    float: right;
+    margin: 0 2em 0 0;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    /*float: left;*/
+    margin-right: 1em;
+    position: absolute;
+    left: 3em;
+}
+
+
+@media (min-width: 100px) and (max-width: 500px){
+
+    body{
+        font-size: 120%;
+        font-family: Arial, Helvetica, sans-serif;
+        /*text-align: center;*/
+        margin: 2px 2px 3px 2px;
+        background-color: ivory;
+        overflow-x: hidden;
+    }
+
+    h2{
+        font-size: 1em;
+        text-align: center;
+        color: #3d3939;
+    }
+
+    ul li{
+        display: block;
+        margin: 2em 0 2em 2px;
+        clear: left;
+    }
+
+    p{
+      float: none;
+    }
+
+    img{
+        width: 25px;
+        height: 25px;
+        /*float: left;*/
+        margin-right: 1em;
+        position: absolute;
+        left: 3em;
+    }
+
+    .copy{
+        border: 1px solid black;
+        color: white;
+        background-color:  #804000;
+        text-align: center;
+        border-radius: 6px;
+        padding: 10px 2em;
+        width: 2px;
+    }
+    
+    .stat{
+        border: 1px solid #4d2800;
+        text-align: center;
+        border-radius: 6px;
+        margin: 0 1em 0 50em;
+        width: 3px;
+        padding: 10px 3em;
+    }
+
+}
